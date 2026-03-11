@@ -1,0 +1,12 @@
+# Render Blueprint: FastAPI app with LLM endpoints
+# Set OPENAI_API_KEY in the Render dashboard (Environment) for this service.
+
+services:
+  - type: web
+    runtime: python
+    name: ai-bootcamp-api
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
