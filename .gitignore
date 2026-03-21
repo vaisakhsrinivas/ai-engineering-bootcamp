@@ -20,7 +20,8 @@ build/
 rag-powered-q&a-system/.env
 
 # Vector databases
-rag-powered-q&a-system/rag_vector_db/
+rag_vector_db/
+rag-powered-q&a-system/rag_vector_db
 
 # IDE
 .idea/
