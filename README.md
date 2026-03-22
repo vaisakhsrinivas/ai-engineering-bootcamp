@@ -1,4 +1,4 @@
-# ai-engineering-bootcamp
+# ai-engineering-bootcamp-FastAPI Readme
 
 **A FastAPI service that exposes text summarization and sentiment analysis via configurable LLM prompt strategies.**
 
